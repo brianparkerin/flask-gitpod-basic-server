@@ -27,6 +27,15 @@ def login():
     return render_template('login.html')
 
 
+@app.route('/sign-up')
+def register():
+    return render_template('register.html')
+    
+@app.route('/start')
+def start():
+    return render_template('start.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
 
