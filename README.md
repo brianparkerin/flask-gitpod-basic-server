@@ -1,4 +1,4 @@
-# flask-gitpod-basic-server
+y# flask-gitpod-basic-server
 
 
 ###  Flask Server on python dev by GitPod
@@ -16,6 +16,16 @@
  > pyenv --version
  
  > python --version
+
+ > pyenv versions
+
+ > pyenv local 3.8.2 
+
+ > python --version
+
+ > python -m pip venv
+
+ > pip install --upgrade pip
  
  
  - Instalar...
@@ -26,7 +36,7 @@
  
  > pip install --upgrade pip
 
-- Correr comando...
+- cd src & run command...
 
 > python index.py
 

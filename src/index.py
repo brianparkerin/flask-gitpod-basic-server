@@ -36,6 +36,11 @@ def start():
     return render_template('start.html')
 
 
+@app.route('/landline')
+def landline():
+    return render_template('landline.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
 
