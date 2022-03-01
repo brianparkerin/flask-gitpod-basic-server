@@ -1,4 +1,4 @@
-from flask import Flask,render_template
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -26,7 +26,6 @@ def pricing():
 def login():
     return render_template('login.html')
 
-
 @app.route('/sign-up')
 def register():
     return render_template('register.html')
@@ -34,7 +33,6 @@ def register():
 @app.route('/start')
 def start():
     return render_template('start.html')
-
 
 @app.route('/landline')
 def landline():
